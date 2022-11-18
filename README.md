@@ -44,3 +44,13 @@
 - [06_classification_image_aigo.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/06_classification_image_aigo.ipynb)
 - 有五種型態的dataset
 
+### step7 訓練分類模型
+- 使用 mobilenetv2 為 backbon
+```
+!CUDA_VISIBLE_DEVICES=0 python3 classification_training.py --l2 0 --optimizer sgd --pooling_type max --image_type multi
+```
+* parser.add_argument('--l2', type=str)
+* parser.add_argument('--optimizer', type=str)  
+* parser.add_argument('--pooling_type', type=str)
+* parser.add_argument('--image_type', type=str)
+* parser.add_argument('--loss', type=str, default='sparse')
