@@ -59,3 +59,8 @@
 ### step8 衡量 classification 的成效
 - [08_classification_evaluation.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/08_classification_evaluation.ipynb)
 - 07_classification_training_chanel3/sgd/ave/relu_batch_0.1/weights_acc.h5 有最佳準確度
+
+### step9 combine two model
+- [09_save_weight.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/09_save_weight.ipynb)：須包含權重與模型架構
+- [09_final.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/09_final.ipynb)：所有 inference 的流程
+- [下載 unet 模型](https://1drv.ms/u/s!AjNFywK-OwvPmv9yiqXRPhMPH2h1OA?e=6ouRyv)：重新命名為unet_resnet18.h5
