@@ -12,7 +12,7 @@
 
 ### step1 安裝套件與下載原始影像
 - requirements.txt：需要安裝的套件版本
-- 安裝[graphviz](https://graphviz.org/download/)
+- 安裝 [graphviz](https://graphviz.org/download/)
 - https://1drv.ms/u/s!AjNFywK-OwvPm415xaeHb1eNht-_bg?e=mIGbb8
 ### step2 產生「02」資料夾
 - [02_mask_prepare.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/02_mask_prepare.ipynb)：將原圖 padding 為正方形後，等比例縮放至 320*320，並透過「[rembg](https://pypi.org/project/rembg/)」進行去背產生遮罩圖  
