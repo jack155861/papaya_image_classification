@@ -36,10 +36,10 @@
 ### step5 衡量 segmentation 的成效
 - 05_segmentation_evaluation：衡量 segmentation 的成效
 - 原圖 - 實際遮罩圖 - 我們訓練出來的 model predict 的結果
-<img width="416" alt="image" src="https://user-images.githubusercontent.com/45505414/202700969-972f0373-c5d5-4c51-ac1f-18ebe5fea76e.png">
-<img width="416" alt="image" src="https://user-images.githubusercontent.com/45505414/202700993-a8fc95ed-f9da-423a-8193-f1ca08d3d58e.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/45505414/202700969-972f0373-c5d5-4c51-ac1f-18ebe5fea76e.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/45505414/202700993-a8fc95ed-f9da-423a-8193-f1ca08d3d58e.png">
 - 訓練過程
-<img width="416" alt="image" src="https://user-images.githubusercontent.com/45505414/202701237-a8008a2f-94c3-43c9-af99-160834871d5c.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/45505414/202701237-a8008a2f-94c3-43c9-af99-160834871d5c.png">
 
 
 
