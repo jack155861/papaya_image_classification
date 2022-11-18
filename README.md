@@ -6,6 +6,12 @@
 - 01_dataset：所有的 image dataset
 - 02_padding_image：透過 [02_mask_prepare.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/02_mask_prepare.ipynb) 產生
 - 02_mask_image：透過 [02_mask_prepare.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/02_mask_prepare.ipynb) 產生
+- 03_unet_image：透過 [03_segmentation_image.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/03_segmentation_image.ipynb) 產生
+- 04_unet_training：透過 [04_segmentation_training.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/04_segmentation_training.ipynb) 產生
+- 06_classification_image：透過 [06_classification_image_aigo.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/06_classification_image_aigo.ipynb) 產生
+- 07_classification_training_XXX：
+- 09_final_weight：
+
 
 ## 各步驟
 ### step1 安裝套件與下載原始影像
