@@ -42,5 +42,5 @@
 
 ### step6 產生訓練分類模型時所需的 dataset
 - [06_classification_image_aigo.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/06_classification_image_aigo.ipynb)
-- 有六種型態的dataset
+- 有五種型態的dataset
 
