@@ -9,7 +9,7 @@ classification_dataset_chanel12.pkl
 - sample input
 <img width="896" alt="image" src="https://user-images.githubusercontent.com/45505414/202706921-2c8828e2-98aa-4e5d-b18f-64a37b28cb8f.png">
 
-- model structure
+- [model structure](https://github.com/jack155861/papaya_image_classification/blob/main/06_classification_image/classification_dataset_chanel12.png)
 
 classification_dataset_merge.pkl
 
