@@ -53,5 +53,5 @@
   * parser.add_argument('--image_type', type=str) #五種dataset
   * parser.add_argument('--loss', type=str, default='sparse') #使用 label-encoding or onehot-encoding
 ```
-!CUDA_VISIBLE_DEVICES=0 python3 classification_training_.py --l2 0 --optimizer sgd --pooling_type max --image_type multi
+!CUDA_VISIBLE_DEVICES=0 python3 classification_training.py --l2 0 --optimizer sgd --pooling_type max --image_type multi
 ```
