@@ -55,3 +55,7 @@
 ```
 !CUDA_VISIBLE_DEVICES=0 python3 07_classification_training.py --l2 0 --optimizer sgd --pooling_type max --image_type multi
 ```
+
+### step8 衡量 classification 的成效
+- [08_classification_evaluation.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/08_classification_evaluation.ipynb)
+- 07_classification_training_chanel3/sgd/ave/relu_batch_0.1/weights_acc.h5 有最佳準確度
