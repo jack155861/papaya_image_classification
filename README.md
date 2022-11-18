@@ -24,3 +24,7 @@
 - 使用 resnet18 為 backbone
 - 最後的分類只有一種，是否為 papaya
 - 最後產生的模型放在「04_unet_training」裏面
+- training segmentstion in terminal
+```
+!CUDA_VISIBLE_DEVICES=0,1 python3 04_training_unet.py
+```
