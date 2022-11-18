@@ -7,10 +7,10 @@
 - 02_padding_image：透過 [02_mask_prepare.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/02_mask_prepare.ipynb) 產生
 - 02_mask_image：透過 [02_mask_prepare.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/02_mask_prepare.ipynb) 產生
 - 03_unet_image：透過 [03_segmentation_image.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/03_segmentation_image.ipynb) 產生
-- 04_unet_training：透過 [04_segmentation_training.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/04_segmentation_training.ipynb) 產生
+- 04_unet_training：透過 04_training_unet.py 來訓練
 - 06_classification_image：透過 [06_classification_image_aigo.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/06_classification_image_aigo.ipynb) 產生
-- 07_classification_training_XXX：
-- 09_final_weight：
+- 07_classification_training_XXX：透過 07_classification_training.py 來訓練
+- 09_final_weight：結合兩個模型，整合所有 inference 的流程
 
 
 ## 各步驟
