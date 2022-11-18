@@ -40,6 +40,7 @@
 - 訓練過程
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/45505414/202701237-a8008a2f-94c3-43c9-af99-160834871d5c.png">
 
-
-
+### step6 產生訓練分類模型時所需的 dataset
+- [06_classification_image_aigo.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/06_classification_image_aigo.ipynb)
+- 有六種型態的dataset
 
