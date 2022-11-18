@@ -19,4 +19,7 @@
 ### step3 產生「03」資料夾
 - [03_segmentation_image.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/03_segmentation_image.ipynb)：一顆木瓜有正反兩張影像，每張影像可以旋轉4個90度，兩張影像可以產生16張 (4*4) 圖，又可以變成「左邊放正面影像右邊放反面影像」以及「左邊放反面影像右邊放正面影像」，因此一張圖片可以擴展成為 32 張影像。原圖為 320*320，擴展成為的 32 張影像皆為 320*640。
 - 「03」資料夾內有兩個資料夾，「image」與「mask」，後續 unet 的訓練，需要這兩個資料夾內的檔案。
-
+### step4 segmentation 的訓練
+- 04_segmentation_training.ipynb：使用[開源程式](https://github.com/qubvel/segmentation_models)碼進行訓練，資料源為「03」資料夾
+- 使用 resnet18 為 backbone
+- 最後的分類只有一種，是否為 papaya
