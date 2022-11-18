@@ -1,3 +1,21 @@
+## 完整的推論流程
+- 詳見 [09_final.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/09_final.ipynb)
+- 讀兩張圖一正一反，且 padding & resize，320 * 320 * 3
+- 圖片左右合併，320 * 640 * 3
+- segmentation model 進行預測
+- 預測結果以信賴度 0.5 為界，轉為 0 與 255
+- 得到去背結果
+- 找出在 320 * 640 * 3 的圖片中，屬於木瓜的邊界 (理論上有兩個木瓜，若不足兩顆木瓜，表示元影像為『其他』類別)
+- 若有兩個以上的木瓜區域，僅切割前兩個面積最大的
+- 分割成兩張圖片，且高 >= 寬，否則轉 90 度
+- resize & padding to 224 * 224 * 3
+- rotate image 180 degree (產生 4 張影像，正+反，0度+180度)
+- 四張影像堆疊時來 (224 * 224 * 3) 進行推論
+
+![image](https://user-images.githubusercontent.com/45505414/202710570-48f2dd3a-e391-4a60-9d4f-59688d8c8e88.png)
+- 影像數值正規化
+- 分類模型的推論
+
 ## 原始影像的分類明細
 - data_label.xlsx：紀錄哪些木瓜影像為同一顆木瓜 (為正反兩面)
 <img width="600" alt="data_label_inxlsx" src="https://user-images.githubusercontent.com/45505414/202681081-dead0c69-b0cb-4a15-a45f-641069a362e4.png">
