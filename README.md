@@ -1,15 +1,13 @@
-
-
-
-### 原始影像的分類明細
+## 原始影像的分類明細
 - data_label.xlsx：紀錄哪些木瓜影像為同一顆木瓜 (為正反兩面)
-<img width="206" alt="data_label_inxlsx" src="https://user-images.githubusercontent.com/45505414/202681081-dead0c69-b0cb-4a15-a45f-641069a362e4.png">
+<img width="600" alt="data_label_inxlsx" src="https://user-images.githubusercontent.com/45505414/202681081-dead0c69-b0cb-4a15-a45f-641069a362e4.png">
 
-### 資料夾結構
+## 資料夾結構
 - 01_dataset：所有的 image dataset
 - 02_padding_image：透過 [02_mask_prepare.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/02_mask_prepare.ipynb) 產生
 - 02_mask_image：透過 [02_mask_prepare.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/02_mask_prepare.ipynb) 產生
 
+## 各步驟
 ### step1 安裝套件與下載原始影像
 - requirements.txt：需要安裝的套件版本
 - 安裝 [graphviz](https://graphviz.org/download/)
@@ -34,7 +32,7 @@
 - 下載 [segmentation model](https://1drv.ms/u/s!AjNFywK-OwvPmv9yiqXRPhMPH2h1OA?e=6ouRyv)
 
 ### step5 衡量 segmentation 的成效
-- 05_segmentation_evaluation：衡量 segmentation 的成效
+- [05_segmentation_evaluation.ipynb](https://github.com/jack155861/papaya_image_classification/blob/main/05_segmentation_evaluation.ipynb)：衡量 segmentation 的成效
 - 原圖 - 實際遮罩圖 - 我們訓練出來的 model predict 的結果
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/45505414/202700969-972f0373-c5d5-4c51-ac1f-18ebe5fea76e.png">
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/45505414/202700993-a8fc95ed-f9da-423a-8193-f1ca08d3d58e.png">
