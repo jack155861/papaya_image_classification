@@ -28,3 +28,4 @@
 ```
 !CUDA_VISIBLE_DEVICES=0,1 python3 04_training_unet.py
 ```
+- 下載 [segmentation model](https://1drv.ms/u/s!AjNFywK-OwvPmv9yiqXRPhMPH2h1OA?e=6ouRyv)
