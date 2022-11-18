@@ -23,3 +23,4 @@
 - 04_segmentation_training.ipynb：使用[開源程式](https://github.com/qubvel/segmentation_models)碼進行訓練，資料源為「03」資料夾
 - 使用 resnet18 為 backbone
 - 最後的分類只有一種，是否為 papaya
+- 最後產生的模型放在「04_unet_training」裏面
