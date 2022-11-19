@@ -14,7 +14,7 @@
 
 ![image](https://user-images.githubusercontent.com/45505414/202710570-48f2dd3a-e391-4a60-9d4f-59688d8c8e88.png)
 - 影像數值正規化
-- 分類模型的推論
+- classification model 進行預測
 
 ## 原始影像的分類明細
 - data_label.xlsx：紀錄哪些木瓜影像為同一顆木瓜 (為正反兩面)
