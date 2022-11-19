@@ -10,7 +10,7 @@
 - 分割成兩張圖片，且高 >= 寬，否則轉 90 度
 - resize & padding to 224 * 224 * 3
 - rotate image 180 degree (產生 4 張影像，正+反，0度+180度)
-- 四張影像堆疊時來 (224 * 224 * 3) 進行推論
+- 將四張影像堆疊起來 (224 * 224 * 3) 進行推論
 
 ![image](https://user-images.githubusercontent.com/45505414/202710570-48f2dd3a-e391-4a60-9d4f-59688d8c8e88.png)
 - 影像數值正規化
