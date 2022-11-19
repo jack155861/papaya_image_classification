@@ -71,9 +71,9 @@
 ### step7 訓練分類模型
 * 使用 mobilenetv2 為 backbon
 * model training
-  * parser.add_argument('--l2', type=str) #使用Regularization
-  * parser.add_argument('--optimizer', type=str)  #使用優化器
-  * parser.add_argument('--pooling_type', type=str) #maxpooling, aveagebooling, convulution, combine all
+  * parser.add_argument('--l2', type=str) #使用 l2 regularization
+  * parser.add_argument('--optimizer', type=str)  #使用優化器 sgd, adam, nadam
+  * parser.add_argument('--pooling_type', type=str) #max-pooling, average-pooling, 1*1 convolution, combine all
   * parser.add_argument('--image_type', type=str) #五種dataset
   * parser.add_argument('--loss', type=str, default='sparse') #使用 label-encoding or onehot-encoding
 ```
